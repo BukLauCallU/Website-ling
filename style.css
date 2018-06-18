@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+
+body, div, ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffff;
+}
+
+header {
+    font-size: 57pt;
+    color: darkgoldenrod;
+}
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
